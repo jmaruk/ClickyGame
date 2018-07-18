@@ -49,7 +49,7 @@ class App extends Component {
 
 
 winner() {
-  if(this.state.score === 3) {
+  if(this.state.score === 5) {
     return (<div>
       <p>We Have a winner</p>
       </div>)
@@ -62,7 +62,7 @@ winner() {
 
     return (
       <Wrapper>
-        <Title>Friends List</Title>
+        <Title>Gilmore Girls Game</Title>
         {isThereWinner}
         <p>Score:{this.state.score}</p>
 

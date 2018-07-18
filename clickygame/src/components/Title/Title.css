@@ -3,6 +3,13 @@
   text-align: center;
   font-size: 3rem;
   text-decoration: underline;
-  color: #2A77AE;
+  color: rgb(202, 80, 43);
   margin-bottom: 50px;
+  font-family:  'Playfair Display', serif;
+}
+
+p {
+  text-align: center;
+  font-weight: 100;
+  font-size: 2em;
 }
